@@ -1,0 +1,106 @@
+body ,html{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    background-color: #fdec51;
+    width: 32%;
+    /* display: flex; */
+    height: 52rem;
+    margin-top: 5rem;
+    padding: 3.5rem;
+}
+.account{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h2{
+   font-size: 30px;
+   margin-left: 2.2rem;
+}
+.multiply{
+    color: #7e762a;
+    font-size: 40px;
+    font-weight: bold;
+    margin-right: 2rem;
+    margin-top: .5rem;
+}
+.cansa{
+    /* margin-top: 42rem; */
+    display: flex;
+    text-indent: 3rem;
+    margin-left: 22rem;
+    margin-top: 2rem;
+}
+.can-text{
+   font-size: 1.6rem;
+   color: #8e8643;
+}
+.wrapper{
+    background-color: white;
+    height: 38rem;
+    width: 44rem;
+    margin-left: 2rem;
+    box-shadow: -17px 31px 30px -10px rgba(0,0,0,0.24);
+    margin-top: 3rem;
+}
+.avartar{
+    border-radius: 7rem;
+    margin-left: 3rem;
+    /* margin-bottom: 30rem; */
+    height: 4rem;
+    width:4rem;
+    margin-top:-2rem ;
+}
+.container{
+    margin:2rem;
+}
+.user{
+    border-bottom: 2px solid #eaeaea;
+    margin-bottom: 1rem;
+}
+.boxes{
+    border: none;
+    /* border-bottom: 2px solid grey; */
+    font-size: 20px;
+    color: #757575;
+    font-weight: bold;
+    margin-bottom: 1rem;
+}
+P{
+    /* font-size: 16px; */
+    font-weight: bold;
+    color: #9f9fa3;
+    /* margin-top: 3rem; */
+}
+.box-b{
+    display: flex;
+    border-bottom:2px solid #eaeaea; 
+    margin-bottom: 1rem;
+}
+.about{
+    border: none;
+    border-bottom:2px solid #eaeaea; 
+    font-size: 20px;
+    color: #757575;
+    font-weight: bold;
+}
+
+textarea{
+    border: none;
+    resize: vertical;
+    margin-right: 1.5rem;
+    outline: none;
+    border-bottom:2px solid #eaeaea;
+    width: 100%;
+}

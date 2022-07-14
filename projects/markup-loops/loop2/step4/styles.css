@@ -1,0 +1,113 @@
+body ,html{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #55557e;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+main{
+    /* background-color: #fdec51; */
+    width: 28%;
+    align-items: center;
+    height: 52rem;
+    margin-top: 5rem;
+    padding: rem;
+}
+.square{
+    height: 5rem;
+    width: 6.5rem;
+    background-color: #3d3e52;
+}
+.squareb{
+    height: 7rem;
+    width: 8rem;
+    background-color: #252525;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: -.5rem;
+    margin-right: -.2rem;
+}
+
+.event-img{
+   filter: brightness(75%);
+   height: 2rem;
+   margin-left: 2rem;
+   margin-top: 1.5rem;
+}
+.top{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.2rem;
+}
+.square-e{
+    height: 7rem;
+    width: 8.5rem;
+    background-color: #3d3e52;
+    margin-top: 20rem;
+}
+.cafe{
+    height: 3rem;
+}
+.wrapper{
+    background-color: white;
+    width: 75%;
+    height: 32rem;
+    margin-left: 4.2rem;
+    border-radius: .5rem;
+    padding-bottom: 1rem;
+    margin-top: 2rem;
+}
+.box{
+    background-color: red;
+    height: 12rem;
+
+}
+h1{
+    color: white;
+    /* font-weight: bold; */
+    margin-top: -3em;
+    font-size: 35px;
+}
+.food{
+    height:15rem;
+    width:23%;
+}
+.food-img{
+    height: 100%;
+    width:100%;
+    position:cover;
+}
+.madrid{
+    font-size: 18px;
+    color: white;
+    margin-left: -1.2rem;
+}
+.food-location{
+    display: flex;
+    margin-top: -2.5rem;
+}
+.food-madrid{
+    margin-left: 1.5rem;
+}
+p{
+    /* display: flex; */
+    color: #ccc9c3;
+    font-weight: bold;
+    font-size: 20px;
+    padding: .5rem 1.5rem .5rem 1.5rem;
+}
+.piz{
+  display: flex;
+  justify-content: space-between;
+}
+.dash{
+    border-bottom: 2px solid #ccc9c3;
+
+}

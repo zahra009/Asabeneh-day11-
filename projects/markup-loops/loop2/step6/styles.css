@@ -1,0 +1,123 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+    height: 100vh;
+    background-color: #78accd;
+    display: grid;
+    place-items: center;
+  }
+  .calendar{
+      background-color: white;
+      width: 35rem;
+      height: 37rem;
+      /* height: 30rem; */
+  }
+  .calendar header {
+    padding: 1rem;
+    color: #8e98a1;
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    font-weight: 500;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+  .calendar main {
+    padding: 1rem;
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    grid-gap: 0.5rem 1rem;
+  }
+  
+  .calendar .day {
+    font-weight: bold;
+    font-size: 1rem;
+    color: #7e8994;
+    text-transform: uppercase;
+  }
+  
+  .calendar main span {
+    font-size: 1rem;
+    text-align: center;
+    height: 1.5rem;
+    width: 1.5rem;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+  }
+  .calendar main .past {
+    color: #e4e3e2;
+    font-weight: 600;
+  }
+  
+  .calendar footer {
+    padding: 1rem;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    margin-top: 0.25rem;
+    font-size: 0.7rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .calendar .add {
+    border: 2px solid #de6e46;
+    border-radius: 3rem;
+    height: 1.25rem;
+    width: 1.25rem;
+    border-radius: 50%;
+    position: relative;
+    cursor: pointer;
+  }
+  
+  .calendar .add:before,
+  .calendar .add:after {
+    position: absolute;
+    content: '';
+    width: 1px;
+    height: 0.5rem;
+    background: grey;
+    left: 0.6rem;
+    top: 0.4rem;
+  }
+  .calendar .add:after {
+    transform: rotate(90deg);
+  }
+  
+  .today {
+    background-color: #de6e46;
+    color: white;
+    font-weight: 500;
+    border: 2px solid #de6e46;
+    border-radius: 3rem;
+  }
+  
+  .has {
+    border: var(--color) 2px solid;
+    position: relative;
+  }
+  .has:after {
+    position: absolute;
+    counter-reset: count var(--count);
+    content: counter(count);
+  /*   content: convert(var(--color) string); */
+    right: -0.25rem;
+    top: -0.25rem;
+    background: var(--color);
+    width: 0.75rem;
+    height: 0.75rem;
+    border-radius: 50%;
+    font-size: 0.5rem;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  footer span sup {
+    font-size: 0.5rem;
+  }

@@ -1,0 +1,76 @@
+body, html{
+    margin: 0;
+    padding: 0;
+}
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #16957b;
+}
+
+.cart{
+    color: #afa7a5;
+}
+
+.wrapper{
+background-color: white;
+border-radius: 5px;
+width: 45%;
+margin: 4rem auto 0;
+padding-bottom: 7rem;
+position: relative;
+overflow: hidden;
+}
+.main{
+    padding: 4rem;
+
+}
+
+/* span{
+    display: grid;
+    grid-template-rows: auto 3fr auto;
+    align-items: center; 
+} */
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 3px;
+    ]
+    
+}
+
+.account{
+    border: 0.5px solid grey;
+    border-radius: 60%;
+    padding: 8px;
+}
+
+.bicycle{
+    width: 37rem;
+    position: absolute;
+    top: 250px;
+    justify-self: center;
+}
+.chap{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+span{
+    font-weight: bold;
+    color: black;
+    font-size: large;
+}
+
+.tot{
+    color: #515154;
+    font-weight: bold;
+}
+
+p{
+    color: #5c5750;
+}

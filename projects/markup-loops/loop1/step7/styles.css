@@ -1,0 +1,99 @@
+body ,html{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    background-color: #f2ce97;
+    /* height: 100vh; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{ 
+    margin-top: 7rem;
+    background-color: red;
+    width: 70%;
+    display: flex;
+}
+.left{
+    background-color: #484956;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3rem;
+    padding-top: 1rem;
+}
+
+.dash{
+    height: 5px;
+    width: 5rem;
+    background-color: #d87761;  
+    margin-top: -1rem;
+}
+
+.top-text{
+    font-size: 35px;
+    color: #e5e5e6;
+    margin-top: -2rem;
+}
+
+.t-text{
+        font-size: 35px;
+        color: white;
+}
+.avatar{
+    display: flex;
+    align-items: center ;
+}
+
+.avatar-img{
+    border-radius: 50%;
+    width: 7rem;
+    margin-right: 1rem;
+    box-shadow: -2px 17px 37px -1px rgba(0,0,0,0.59);
+}
+.john{
+    color: white;
+    font-size: 23px;
+}
+.right{
+    background-color: #fff;
+    width: 60%;
+}
+
+.text-main{
+    font-size: 27px;
+}
+.right-text{
+    padding: 3rem;
+}
+
+.bottom{
+   
+    border-top: 3px solid grey;
+    padding: 2rem 0;
+    height: 
+    box-shadow: ;
+}
+.t{
+    font-weight: 700;
+    font-size: 50px;
+}
+.b{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem;
+}
+.date{
+    display: flex;
+    align-items: center;
+}
+.more{
+    display: flex;
+    align-items: center;
+}

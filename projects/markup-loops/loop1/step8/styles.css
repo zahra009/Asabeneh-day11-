@@ -1,0 +1,116 @@
+body ,html{
+    margin: 0;
+    padding: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body{
+    background-color: #f9e8e6;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main{ 
+    margin-top: 7rem;
+    /* background-color: red; */
+    width: 70%;
+    display: flex;
+    box-shadow: -4px 39px 33px -11px rgba(138,98,98,0.65);
+}
+.left{
+    background-image: url('./img/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 40%;
+    padding: 2rem;
+}
+
+.back{
+    margin-left: 0.5rem;
+}
+
+.back-img{
+    /* height: 50rem; */
+}
+.arrow{
+    display: flex;
+    align-items: center;
+    /* color: #547099; */
+    /* margin-top: -15rem; */
+    /* margin-left: 3rem; */
+}
+
+.right{
+    background-color: #fff;
+    width: 60%;
+    padding: 2rem;
+}
+.f-right{
+    display: flex;
+    /* justify-content: space-between; */
+    margin-left: 25rem;
+}
+.p-right{
+    color:#aeadae;
+    font-weight: bold;
+    text-indent: 2.5rem;
+}
+p.right:hover p {
+     color: black;
+
+}
+.b-right{
+    font-weight: bold;
+    text-indent: 2.5rem;
+}
+.dash{
+    height: 5px;
+    width: 7rem;
+    background-color: black;  
+    margin-top: -1.5rem;
+    margin-left: 1.5rem;
+}
+.city{
+    font-size: 70px;
+    margin-top: -5rem;
+    font-weight: bold;
+}
+.t-city{
+    font-size: 70px;
+    font-weight: bold;
+}
+.ty{
+    display: flex;
+}
+.jerry{
+    font-size: 30px;
+    margin-top: -3rem;
+}
+.arrow-back{
+    display: flex;
+    align-items: center;
+}
+.arrow-img{
+    margin-left: 0.5rem;
+    margin-top: -0rem;
+}
+.last-text{
+    font-size: 1.8rem;
+    margin-left: 3rem;
+    padding-bottom: 3rem;
+}
+/* .view{
+    display: flex;
+    flex-direction: ;
+} */
+.video{
+    display: flex;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.white{
+    margin-left: 5rem;
+    margin-top: 8rem;
+}
